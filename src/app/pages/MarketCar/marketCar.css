@@ -1,0 +1,60 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilo para o título principal */
+  .header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para o carrinho no canto superior direito */
+  .cart-header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Lista de cursos */
+  .course-list, .shopping-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .course-list li, .shopping-list li {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .course-list button, .shopping-list button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .course-list button:hover, .shopping-list button:hover {
+    background-color: #218838;
+  }
+  
+  /* Estilo para os detalhes do curso no carrinho */
+  .shopping-list p {
+    margin: 5px 0;
+  }
+  
+  .shopping-list .total {
+    font-weight: bold;
+    margin-top: 10px;
+  }
